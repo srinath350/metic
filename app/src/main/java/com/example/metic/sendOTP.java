@@ -12,6 +12,5 @@ public class sendOTP extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_send_otp);
 
-        Toast.makeText(this, "Bleh", Toast.LENGTH_SHORT).show();
     }
 }
