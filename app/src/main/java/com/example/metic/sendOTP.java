@@ -3,6 +3,7 @@ package com.example.metic;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class sendOTP extends AppCompatActivity {
 
@@ -10,5 +11,7 @@ public class sendOTP extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_send_otp);
+
+        Toast.makeText(this, "Bleh", Toast.LENGTH_SHORT).show();
     }
 }
