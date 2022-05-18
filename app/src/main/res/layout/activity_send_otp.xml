@@ -9,70 +9,64 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="300dp"
+        android:layout_width="345dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="30dp"
         android:foregroundGravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
+
+        app:layout_constraintBottom_toTopOf="@+id/textView"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo2" />
+
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:layout_width="390dp"
-        android:layout_height="0dp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="294dp"
-        android:layout_marginBottom="46dp"
+        android:layout_width="382dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="429dp"
         android:backgroundTint="#F6F2F2"
         android:ems="10"
         android:gravity="center"
         android:hint="Enter your mobile number"
         android:inputType="textPersonName"
+
         android:textColorHint="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
     <Button
         android:id="@+id/Sendotp"
         android:layout_width="250dp"
         android:layout_height="48dp"
-        android:layout_marginStart="88dp"
-        android:layout_marginBottom="300dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="80dp"
         android:backgroundTint="@color/black_btn"
         android:gravity="center"
         android:text="Send OTP"
+
         android:textSize="18dp"
         app:circularflow_radiusInDP="300dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="@+id/imageView2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="0dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="5dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:srcCompat="@drawable/metrodark" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="258dp"
-        android:layout_marginEnd="16dp"
-        android:layout_marginBottom="158dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginBottom="18dp"
         android:text="We will send you and OTP on this number "
+
         android:textColor="@color/black"
-        app:layout_constraintBottom_toTopOf="@+id/imageView3"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
