@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/greenshade"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminhome">
+
+   <ImageButton
+       android:id="@+id/exit"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="350dp"
+       android:layout_marginTop="20dp"
+       android:background="@color/greenshade"
+       android:src="@drawable/ic_baseline_exit_to_app_24"></ImageButton>
+
+
+   <ImageButton
+       android:id="@+id/userdata"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="150dp"
+       android:background="@color/greenshade"
+       android:src="@drawable/user"></ImageButton>
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="270dp"
+       android:textSize="30dp"
+       android:gravity="center"
+       android:textStyle="bold"
+       android:fontFamily="serif-monospace"
+      android:text="Users"/>
+
+   <ImageButton
+       android:id="@+id/hist"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="350dp"
+       android:background="@color/greenshade"
+       android:src="@drawable/ic_baseline_history_24" />
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="480dp"
+       android:textSize="30dp"
+       android:gravity="center"
+       android:textStyle="bold"
+       android:fontFamily="serif-monospace"
+       android:text="History"/>
+
+
+
+
+</RelativeLayout>

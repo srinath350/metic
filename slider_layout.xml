@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/greenshade">
+
+    <ImageView
+        android:id="@+id/entry"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/station_entry"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/slide_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/entry"
+        android:fontFamily="sans-serif-medium"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Enter Source Station"
+        android:textColor="@color/blue"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/slider_desc"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_below="@id/slide_heading"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:text="@string/first_slide_desc"
+        android:textColor="@color/blue"
+        android:textSize="20dp" />
+
+</RelativeLayout>
