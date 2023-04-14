@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_profile"
+        android:icon="@drawable/ic_person"
+        android:title="Profile"/>
+    <item android:id="@+id/menu_ticket"
+        android:icon="@drawable/ic_scanner"
+        android:title="Ticket"/>
+    <item android:id="@+id/menu_history"
+        android:icon="@drawable/ic_history"
+        android:title="History"/>
+
+    <item android:id="@+id/menu_m_wallet"
+        android:icon="@drawable/ic_wallet"
+        android:title="M-Wallet"/>
+    <item android:id="@+id/menu_map"
+        android:icon="@drawable/ic_map"
+        android:title="Map"/>
+    <item android:id="@+id/menu_info"
+        android:icon="@drawable/ic_info"
+        android:title="About"/>
+    <item android:id="@+id/menu_logout"
+        android:icon="@drawable/ic_exit"
+        android:title="Logout"/>
+
+
+
+</menu>
